@@ -1,0 +1,224 @@
+/* general */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    justify-content: center;
+    display: flex;
+    width: 1850px;
+    /* background-color: aquamarine; */
+}
+
+footer, #instagram_feed, #latest_tweets, #featured_post, #subscribe
+{
+    padding: 5px;
+    margin: 10px;
+}
+
+main
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    /* background-color: rgb(43, 94, 77); */
+}
+
+
+/* header */
+header
+{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* corps principal */
+#montage
+{
+    display: flex;
+    flex-wrap:wrap;
+    line-height: 0; 
+/* ligne entre block a defaut existe */
+}
+
+#get_started 
+{
+    position: relative;
+    text-align: center;
+    
+}
+
+#get_started img
+{
+    width: 100%;
+}
+
+#get_started h2
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    border:solid white 5px ;
+}
+
+.parent>img
+{
+    width:100%;
+    object-fit: cover; 
+    /* permet de couvrir la partie */
+}
+
+.parent
+{
+    position: relative;
+    text-align: center;
+}
+
+.photo
+{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 255, 0.5); */
+}
+
+.text
+{
+    margin-top: 5px;
+    color: beige;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+    /* background-color: rgba(0, 0, 255, 0.5); */
+}
+
+.text h1
+{
+    font-size: 50px;
+}
+/* section */
+#buzz 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#buzz p
+{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: justify;
+}
+ section
+ {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:rgb(128, 124, 124);
+    display: flex;
+    position: relative;
+    /* line-height: 2em; */
+} 
+
+#buzz>h2
+{
+   
+    position: absolute;
+    bottom: 30px;
+    left: 1200px;
+
+}
+
+
+/* footer */
+footer
+{
+    height: 450px;
+    position: relative;
+    display: flex;
+    margin: 10px;
+    text-align: justify;
+   background-color: brown;
+}
+
+#instagram_feed h1, #latest_tweets h1, #featured_post h1, #subscribe h1,#buzz h1
+{
+    font-size: 2em;
+    font-weight:900;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+}
+
+#instagram_feed 
+{    
+    width: 25%;
+    /* flex-wrap: wrap; */
+    text-align: center;    
+}
+
+#latest_tweets 
+{   
+    width: 25%;
+}
+
+#featured_post 
+{
+    width: 25%;
+}
+
+#subscribe
+{
+    width: 25%;
+    position: relative;
+}
+
+#subscribe a
+{
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    height: 18px;
+    width: 150px;
+    border: solid gray 3px;
+    position: absolute;
+    bottom: 30px;
+    left:180px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#copyright
+{
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+#theme
+{
+    font-size: 1em;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 1295px;
+}
