@@ -154,7 +154,7 @@ footer
     display: flex;
     margin: 10px;
     text-align: justify;
-   background-color: brown;
+   /* background-color: brown; */
 }
 
 #instagram_feed h1, #latest_tweets h1, #featured_post h1, #subscribe h1,#buzz h1
